@@ -24,9 +24,11 @@ function App() {
         <RenderPropsComponent render={(count, increaseCount)=>(
           <LikeImageRender count={count} increaseCount={increaseCount}/>
         )} />
+        <div className='ren2'>
          <RenderPropsComponent render={(count, increaseCount)=>(
           <LikePostRender count={count} increaseCount={increaseCount} />
         )} />
+        </div>
       </div>
 
 
@@ -39,6 +41,8 @@ function App() {
         <LikeImageH />
         <LikePostH />
       </div>
+
+
 
 
     </div>
